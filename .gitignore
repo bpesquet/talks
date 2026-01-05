@@ -1,0 +1,5 @@
+# macOS folder files
+.DS_Store
+
+# PDF output
+*.pdf

@@ -8,7 +8,7 @@
   aspect-ratio: "16-9",
   footer: [#main_title],
   // Uncomment the following line to obtain an animation-free version
-  // config-common(handout: true),
+  config-common(handout: true),
 )
 
 #set math.equation(numbering: "(1)")
@@ -20,6 +20,10 @@
     bottom + left,
     dx: 10mm,
     link("https://www.inria.fr")[#image("images/inria_logo.jpg", width: 15%)],
+  )
+  #place(
+    bottom + center,
+    link("https://inria.fr/fr/mnemosyne")[#image("images/mnemosyne_logo.png", width: 15%)],
   )
   #place(
     bottom + right,
@@ -35,9 +39,9 @@
 
   #main_author
 
-  // #link("https://www.inria.fr")[INRIA], #link("https://ensc.bordeaux-inp.fr")[ENSC - Bordeaux INP]
-
   #datetime.today().display("[month repr:long] [day], [year repr:full]")
+  // Hard value for event date
+  // #datetime(year: 2026, month: 01, day: 06).display("[month repr:long] [day], [year repr:full]")
 ]
 
 == Outline <touying:hidden>
@@ -123,12 +127,14 @@ $ dif x = w(Q_(1,t) - Q_(2,t))dif t + s W $ <rl_ddm>
 #pause
 
 - _Uncertainty_ is inherent to all stages of neural computation @flemingMetacognitionConfidenceReview.
-  - Refers to representation of information in the brain as _probabilistic distributions_.
+
+#pause
+
+- Our brain might be able to manipulate uncertainties as _probability distributions_ @meynielConfidenceBayesianProbability2015.
 
 #pause
 
 - _Confidence_ quantifies the degree of _certainty_ associated with a decision.
-  - Refers to _scalar values_ derived from those distributions @meynielConfidenceBayesianProbability2015.
 
 #pause
 
@@ -208,6 +214,7 @@ _Post-decisional focus models_ posit that evidence accumulation goes on after de
   #bibliography("../bibliography.bib", title: none)
 ]
 
+// Creates a unwanted blank slide
 // #set heading(outlined: false)
 
 #set align(center + horizon)

@@ -54,10 +54,10 @@
 
 == Scientists: text is all you need #emoji.face
 
-- For centuries, _text_ has been the dominant medium for scientific reporting.
+- For centuries, _text_ has been the dominant medium for communicating scientific ideas.
 - Main usages:
-  - Publishing results.
-  - Communicating and exchanging with colleagues.
+  - Publishing results through articles and reports.
+  - Exchanging information with colleagues
 - Why?
   - Universal
   - Precise
@@ -81,25 +81,59 @@
   - Current version: LaTeX2e (1994)
   - LaTeX3 is in development since 1989
 
-- Separate content from rendering, purely text-based, free software licence, rich ecosystem.
+- Separate content from rendering, purely text-based, #link("https://en.wikipedia.org/wiki/LaTeX_Project_Public_License")[free software licence], rich ecosystem.
 
 - Gold standard for authoring and publishing scientific material.
 
-== A new contender: Typst
+== The new kid on the block: Typst
 
 - New technology stack for creating scientific documents.
   - First public release: 2023
 - Provides:
-  - An #link("https://raw.githubusercontent.com/typst/typst/refs/heads/main/LICENSE")[open source] #link("https://github.com/typst/typst")[CLI compiler]
-  - A #link("https://typst.app")[collaborative online editor] similar in spirit to LaTeX's #link("https://www.overleaf.com/")[Overleaf]
+  - An #link("https://en.wikipedia.org/wiki/Apache_License")[open source] #link("https://github.com/typst/typst")[CLI compiler].
+  - A #link("https://typst.app")[collaborative online editor] similar in spirit to LaTeX's #link("https://www.overleaf.com/")[Overleaf].
 
 = Features
 
-= Pros
+== Principles and syntax
 
-```tex
-The quadratic formula is $-b \pm \sqrt{b^2 - 4ac} \over 2a$
-\bye
-```
+- Designed to be "as powerful as LaTeX while being much easier to learn and use".
+- Based on the #link("https://en.wikipedia.org/wiki/Markdown")[Markdown] syntax.
+- Three syntactical modes:
+  - Markup (the default)
+  - math
+  - code (for scripting)
+- Compiler built in #link("https://rust-lang.org/")[Rust].
 
-= Cons
+== Demo time! #emoji.glasses
+
+- Examples:
+  - #link("https://github.com/bpesquet/talks/tree/main/2026-typst-intro/demos/basics.typ")[Syntax basics]
+  - #link("https://github.com/bpesquet/talks/tree/main/2026-typst-intro/demos/math.typ")[Math]
+  - #link("https://github.com/bpesquet/talks/tree/main/2026-typst-intro/demos/article.typ")[Article draft]
+  - #link("https://github.com/bpesquet/talks/blob/main/2026-nuit-recherche-ensc/slides.typ")[Slideshow] (uses #link("https://touying-typ.github.io/")[Touying])
+- See the #link("https://typst.app/docs/tutorial/")[official tutorial] for more details.
+
+= Should you use Typst?
+
+== Pros
+
+- Syntax clarity
+- Speed!
+- Growing #link("https://typst.app/universe/")[ecosystem] (themes, extensions, etc)
+- Positive returns by early adopters
+
+== Cons
+
+- Format not accepted by conferences and journals #emoji.noentry
+  - Should change #link("https://typst.app/blog/2025/typst-at-ijimai")[sooner] or later
+- Tiny community compared to LaTeX's.
+- Uncertainty about the project's future
+
+#set align(center + horizon)
+
+= <touying:hidden>
+
+*Thank you for your attention!*
+
+Any questions? #emoji.face

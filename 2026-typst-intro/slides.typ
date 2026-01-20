@@ -87,7 +87,7 @@
 
 == The new kid on the block: Typst
 
-- New technology stack for creating scientific documents.
+- #link("https://grokipedia.com/page/Typst")[Typst] is a new technology stack for creating scientific documents.
   - First public release: 2023
 - Provides:
   - An #link("https://en.wikipedia.org/wiki/Apache_License")[open source] #link("https://github.com/typst/typst")[CLI compiler].
@@ -120,6 +120,8 @@
 
 - Syntax clarity
 - Speed!
+- No need for complex package management
+- User-friendly error messages
 - Growing #link("https://typst.app/universe/")[ecosystem] (themes, extensions, etc)
 - Positive returns by early adopters
 
@@ -127,8 +129,10 @@
 
 - Format not accepted by conferences and journals #emoji.noentry
   - Should change #link("https://typst.app/blog/2025/typst-at-ijimai")[sooner] or later
-- Tiny community compared to LaTeX's.
-- Uncertainty about the project's future
+- Tiny community compared to LaTeX's
+  - Less support and resources
+  - Need for home-made customization in some scenarios
+- Uncertainty about the project's future (#link("https://typst.app/docs/roadmap/")[planned roadmap])
 
 #set align(center + horizon)
 

@@ -211,7 +211,7 @@ _Post-decisional focus models_ posit that evidence accumulation goes on after de
 #slide[
   #set text(size: 14pt)
 
-  #bibliography("../bibliography.bib", title: none)
+  #bibliography("./bibliography.bib", title: none)
 ]
 
 // Creates a unwanted blank slide

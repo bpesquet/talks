@@ -100,7 +100,7 @@
 - Designed to be "as powerful as LaTeX while being much easier to learn and use".
 - Based on the #link("https://en.wikipedia.org/wiki/Markdown")[Markdown] syntax.
 - Three syntactical modes:
-  - Markup (the default)
+  - markup (the default)
   - math
   - code (for scripting)
 - Compiler built in #link("https://rust-lang.org/")[Rust].
@@ -108,10 +108,10 @@
 == Demo time! #emoji.glasses
 
 - Examples:
-  - #link("https://github.com/bpesquet/talks/tree/main/2026-typst-intro/demos/basics.typ")[Syntax basics]
-  - #link("https://github.com/bpesquet/talks/tree/main/2026-typst-intro/demos/math.typ")[Math]
-  - #link("https://github.com/bpesquet/talks/tree/main/2026-typst-intro/demos/article.typ")[Article draft]
-  - #link("https://github.com/bpesquet/talks/blob/main/2026-nuit-recherche-ensc/slides.typ")[Slideshow] (uses #link("https://touying-typ.github.io/")[Touying])
+  - Syntax basics [#link("https://github.com/bpesquet/talks/tree/main/2026-typst-intro/demos/basics.typ")[source] | #link("https://github.com/bpesquet/talks/tree/main/2026-typst-intro/demos/basics.pdf")[result]]
+  - Math [#link("https://github.com/bpesquet/talks/tree/main/2026-typst-intro/demos/math.typ")[source] | #link("https://github.com/bpesquet/talks/tree/main/2026-typst-intro/demos/math.pdf")[result]]
+  - Article draft [#link("https://github.com/bpesquet/talks/tree/main/2026-typst-intro/demos/article.typ")[source] | #link("https://github.com/bpesquet/talks/tree/main/2026-typst-intro/demos/article.pdf")[result]]
+  - Slideshow [#link("https://github.com/bpesquet/talks/tree/main/2026-typst-intro/slides.typ")[source] | #link("https://github.com/bpesquet/talks/tree/main/2026-typst-intro/demos/slideshow.pdf")[result]] (uses #link("https://touying-typ.github.io/")[Touying])
 - See the #link("https://typst.app/docs/tutorial/")[official tutorial] for more details.
 
 = Should you use Typst?

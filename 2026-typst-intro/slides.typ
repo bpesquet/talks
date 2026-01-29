@@ -111,7 +111,7 @@
   - Syntax basics [#link("https://github.com/bpesquet/talks/tree/main/2026-typst-intro/demos/basics.typ")[source] | #link("https://github.com/bpesquet/talks/tree/main/2026-typst-intro/demos/basics.pdf")[result]]
   - Math [#link("https://github.com/bpesquet/talks/tree/main/2026-typst-intro/demos/math.typ")[source] | #link("https://github.com/bpesquet/talks/tree/main/2026-typst-intro/demos/math.pdf")[result]]
   - Article draft [#link("https://github.com/bpesquet/talks/tree/main/2026-typst-intro/demos/article.typ")[source] | #link("https://github.com/bpesquet/talks/tree/main/2026-typst-intro/demos/article.pdf")[result]]
-  - Slideshow [#link("https://github.com/bpesquet/talks/tree/main/2026-typst-intro/slides.typ")[source] | #link("https://github.com/bpesquet/talks/tree/main/2026-typst-intro/demos/slideshow.pdf")[result]] (uses #link("https://touying-typ.github.io/")[Touying])
+  - Slideshow (this doc!) [#link("https://github.com/bpesquet/talks/tree/main/2026-typst-intro/slides.typ")[source]]. Uses #link("https://touying-typ.github.io/")[Touying]
 - See the #link("https://typst.app/docs/tutorial/")[official tutorial] for more details.
 
 = Should you use Typst?

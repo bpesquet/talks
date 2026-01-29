@@ -9,7 +9,7 @@ $ F_n = round(1 / sqrt(5) phi.alt^n), quad phi.alt = (1 + sqrt(5)) / 2 $
 #let count = 8
 #let nums = range(1, count + 1)
 #let fib(n) = (
-  if n <= 2 { 1 } else { fib(-1) + fib(n - 2) }
+  if n <= 2 { 1 } else { fib(n - 1) + fib(n - 2) }
 )
 
 The first #count numbers of the sequence are:

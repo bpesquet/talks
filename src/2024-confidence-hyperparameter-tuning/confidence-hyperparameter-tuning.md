@@ -1,7 +1,7 @@
 ---
 marp: true
 math: true  # Use default Marp engin for math rendering
-headingDivider: 3
+headingDivider: 5
 paginate: true
 # https://github.com/orgs/marp-team/discussions/192#discussioncomment-1517399
 style: |
@@ -12,16 +12,11 @@ style: |
   }
 title: "Confidence as hyperparameter tuning for sequential decision-making"
 date: 2024-10-16T10:13:06+01:00
-draft: false
-showToc: true
 ---
 
-<!-- Put each of the following lines into an HTML comment to display the title slide -->
-
-<!-- Apply header and footer to first slide only
-_header: "[![IMN logo](../../../static/images/imn_logo.png)](https://ensc.bordeaux-inp.fr) [![INRIA logo](../../../static/images/inria_logo.jpg)](https://www.inria.fr) [![ENSC logo](../../../static/images/ENSC_2022.jpg)](https://ensc.bordeaux-inp.fr)" 
-_footer: "[Baptiste Pesquet](https://www.bpesquet.fr)" 
-headingDivider: 3 
+<!-- Apply header and footer to first slide only -->
+<!-- _header: "[![INRIA logo](../../logos/inria_logo.jpg)](https://www.inria.fr) [![ENSC logo](../../logos/ensc_logo.jpg)](https://ensc.bordeaux-inp.fr)"  -->
+<!-- _footer: "[Baptiste Pesquet](https://www.bpesquet.fr)"  -->
 
 <style scoped>
   img {
@@ -31,12 +26,12 @@ headingDivider: 3
 
 # Confidence as hyperparameter tuning for sequential decision-making
 
-Show pagination, starting with second slide 
-paginate: true  -->
+<!-- Show pagination, starting with second slide  -->
+<!-- paginate: true  -->
 
 ## Metacognition
 
-[![Metacognition diagram](../confidence/images/metacognition_diagram.png)](../confidence/#metacognition)
+[![Metacognition diagram](images/metacognition_diagram.png)](../confidence/#metacognition)
 
 ## Sequential decision-making
 
@@ -44,7 +39,7 @@ paginate: true  -->
 - Canonical model: integration of noisy information until a threshold is reached.
 - Many refinements: multi-alternative choice, impact of learning, change of mind, etc.
 
-[![](../decision-making/images/eam_rdk.png)](../decision-making/#sequential-sampling)
+![EAM RDK](images/eam_rdk.png)
 
 ## Confidence for decision-making
 
@@ -55,12 +50,12 @@ paginate: true  -->
 <div class="columns">
 <div>
 
-![Balance of Evidence example](../confidence/images/BoE.png)
+![Balance of Evidence example](images/BoE.png)
 
 </div>
 <div>
 
-![2DSD](../confidence/images/2DSD.png)
+![2DSD](images/2DSD.png)
 
 </div>
 </div>

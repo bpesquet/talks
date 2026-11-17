@@ -1,20 +1,15 @@
 ---
 marp: true
 math: true  # Use default Marp engin for math rendering
-headingDivider: 3
+headingDivider: 6
 paginate: true
 date: 2024-01-29T10:13:06+01:00
 title: "Introduction to the theory of decision-making"
-draft: false
-showToc: true
 ---
 
-<!-- Put each of the following lines into an HTML comment to display the title slide -->
-
-<!-- Apply header and footer to first slide only
-_header: "[![IMN logo](../../../static/images/imn_logo.png)](https://ensc.bordeaux-inp.fr) [![INRIA logo](../../../static/images/inria_logo.jpg)](https://www.inria.fr) [![ENSC logo](../../../static/images/ENSC_2022.jpg)](https://ensc.bordeaux-inp.fr)" 
-_footer: "[Baptiste Pesquet](https://www.bpesquet.fr)" 
-headingDivider: 3 
+<!-- Apply header and footer to first slide only -->
+<!-- _header: "[![INRIA logo](../../logos/inria_logo.jpg)](https://www.inria.fr) [![ENSC logo](../../logos/ensc_logo.jpg)](https://ensc.bordeaux-inp.fr)"  -->
+<!-- _footer: "[Baptiste Pesquet](https://www.bpesquet.fr)"  -->
 
 <style scoped>
   img {
@@ -24,8 +19,8 @@ headingDivider: 3
 
 # Introduction to the theory of decision-making
 
-Show pagination, starting with second slide 
-paginate: true  -->
+<!-- Show pagination, starting with second slide  -->
+<!-- paginate: true  -->
 
 ## Terminology
 
@@ -85,6 +80,8 @@ Historically, most research on the dynamics of decision-making has been focused 
 - [Stroop tasks](https://en.wikipedia.org/wiki/Stroop_effect).
 - Saccadic flanker tasks: moving the eye in the direction indicated by a central stimulus, ignoring the directionality of flanker stimuli.
 - *Random Dot Kinematogram* (RDK): judging whether a subset of dots move to the left or to the right.
+
+---
 
 ![RDK](images/rdk.png)
 
@@ -197,6 +194,8 @@ Originally designed in the 1970s [Ratcliff, 1978], it has recently experienced a
 |$v$|Drift rate|$[-5,5]$|Speed of evidence accumulation processing|
 |$T_{er}$|Non-decision time|$[0.1,0.5]$ (in seconds)|Neurological processes for stimulus encoding and motor response|
 
+---
+
 ![DDM](images/ddm.png)
 
 ##### Mathematical formulation
@@ -230,6 +229,8 @@ $$dx = v\,dt + s\,dW$$
 ###### Low-level neuroscience
 
 Studies [[Gold and Shadlen, 2001]](https://www.sciencedirect.com/science/article/pii/S1364661300015679?via%3Dihub) use DDM as inspiration to interpret neuron firing rates in monkeys as evidence accumulation until a threshold is reached.
+
+---
 
 ![Firing rate in monkeys](images/ddm_firing_rate.png)
 

@@ -1,13 +1,26 @@
 ---
+marp: true
+headingDivider: 4
 title: "AI for Defence"
 date: 2023-06-09T08:37:58+02:00
-draft: false
-showToc: true
 ---
+
+<!-- Apply header and footer to first slide only -->
+<!-- _header: "[![INRIA logo](../../logos/inria_logo.jpg)](https://www.inria.fr) [![ENSC logo](../../logos/ensc_logo.jpg)](https://ensc.bordeaux-inp.fr)"  -->
+<!-- _footer: "[Baptiste Pesquet](https://www.bpesquet.fr)"  -->
+
+<style scoped>
+  img {
+    padding-right: 40px
+  }
+</style>
+
+# AI for Defence
+
+<!-- Show pagination, starting with second slide  -->
+<!-- paginate: true  -->
 
 ## Context
-
----
 
 ### Impacts of AI on Defence
 
@@ -20,16 +33,12 @@ showToc: true
   - Intelligence
   - Robotics and autonomy
 
----
-
 ### A fast-moving ecosystem
 
 - In all countries, traditional defence behemoths (Lockheed Martin, Thales Group, Leonardo...) have embraced AI as a key tool for improving their systems.
 - Many startups are entering the field with specialized offerings.
 - Some new, state-promoted national sectors emerge (example: Israel for cybersecurity).
 - Recent conflicts, most notably the Ukraine war, are catalysts for AI adoption.
-
----
 
 ### National and international initiatives
 
@@ -38,8 +47,6 @@ showToc: true
 - (EU) [Guidelines for military and non-military use of AI](https://www.europarl.europa.eu/news/en/press-room/20210114IPR95627/guidelines-for-military-and-non-military-use-of-artificial-intelligence)
 - (NATO) [An Artificial Intelligence Strategy](https://www.nato.int/docu/review/articles/2021/10/25/an-artificial-intelligence-strategy-for-nato/index.html)
 - ...
-
----
 
 ### Main issue
 
@@ -50,11 +57,7 @@ showToc: true
   - Who's responsible for what?
   - ...
 
----
-
 ## Use cases
-
----
 
 ### Missile pack guidance
 
@@ -62,21 +65,15 @@ showToc: true
 - AI is used to optimize their guidance and help the pilot.
 - (PhD in progress in Bordeaux)
 
----
-
 ### Pilot assistance
 
 - Single pilot planes are heavily studied for both civilian and military contexts (with sometimes an unchanged cockpit).
 - AI is needed for assistance and decision making.
 
----
-
 ### Object recognition in combat zones
 
 - [Project Maven](https://www.defense.gov/News/News-Stories/Article/Article/1254719/project-maven-to-deploy-computer-algorithms-to-war-zone-by-years-end/): a US initiative aiming at categorizing and identifying surveillance footage by low altitude devices.
 - Uses sophisticated computer vision algorithms and models.
-
----
 
 ### Homeland security
 
@@ -84,15 +81,11 @@ showToc: true
 - Such services make heavy use of Machine Learning and are offered by companies like [Palantir](https://en.wikipedia.org/wiki/Palantir_Technologies).
 - There are, of course, many associated ethical issues.
 
----
-
 ### Prevention of cyberterrorism
 
 - Protecting defence networks by identifying and neutralizing threats (viruses, malware, cyberattacks...).
 - Detection of unusual patterns in network usage.
 - Associated software leverages various supervised and unsupervised learning algorithms.
-
----
 
 ### Autonomous combat units
 
@@ -100,8 +93,6 @@ showToc: true
 - Drones and drone swarms.
 - (Not there yet) battle robots.
 - ...
-
----
 
 ### Battlefield of the future
 

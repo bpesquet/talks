@@ -2,19 +2,13 @@
 marp: true
 math: true  # Use default Marp engin for math rendering
 headingDivider: 5
-paginate: true
 date: 2024-06-24T10:13:06+01:00
 title: "Confidence in decision-making"
-draft: false
-showToc: true
 ---
 
-<!-- Put each of the following lines into an HTML comment to display the title slide -->
-
-<!-- Apply header and footer to first slide only
-_header: "[![IMN logo](../../../static/images/imn_logo.png)](https://ensc.bordeaux-inp.fr) [![INRIA logo](../../../static/images/inria_logo.jpg)](https://www.inria.fr) [![ENSC logo](../../../static/images/ENSC_2022.jpg)](https://ensc.bordeaux-inp.fr)" 
-_footer: "[Baptiste Pesquet](https://www.bpesquet.fr)" 
-headingDivider: 5 
+<!-- Apply header and footer to first slide only -->
+<!-- _header: "[![INRIA logo](../../logos/inria_logo.jpg)](https://www.inria.fr) [![ENSC logo](../../logos/ensc_logo.jpg)](https://ensc.bordeaux-inp.fr)"  -->
+<!-- _footer: "[Baptiste Pesquet](https://www.bpesquet.fr)"  -->
 
 <style scoped>
   img {
@@ -24,8 +18,8 @@ headingDivider: 5
 
 # Confidence in decision-making
 
-Show pagination, starting with second slide 
-paginate: true  -->
+<!-- Show pagination, starting with second slide  -->
+<!-- paginate: true  -->
 
 ## Terminology
 

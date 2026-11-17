@@ -5,8 +5,6 @@ headingDivider: 3
 paginate: true
 title: "Towards metacognitive agents: integrating confidence in sequential decision-making"
 date: 2025-05-05T10:04:27+02:00
-draft: false
-showToc: true
 style: |
   .columns {
     display: grid;
@@ -15,12 +13,9 @@ style: |
   }
 ---
 
-<!-- Put each of the following lines into an HTML comment to display the title slide -->
-
-<!-- Apply header and footer to first slide only
-_header: "[![IMN logo](../../../static/images/imn_logo.png)](https://ensc.bordeaux-inp.fr) [![INRIA logo](../../../static/images/inria_logo.jpg)](https://www.inria.fr) [![ENSC logo](../../../static/images/ENSC_2022.jpg)](https://ensc.bordeaux-inp.fr)" 
-_footer: "[Baptiste Pesquet](https://www.bpesquet.fr)" 
-headingDivider: 3 
+<!-- Apply header and footer to first slide only -->
+<!-- _header: "[![INRIA logo](../../logos/inria_logo.jpg)](https://www.inria.fr) [![ENSC logo](../../logos/ensc_logo.jpg)](https://ensc.bordeaux-inp.fr)"  -->
+<!-- _footer: "[Baptiste Pesquet](https://www.bpesquet.fr)"  -->
 
 <style scoped>
   img {
@@ -30,8 +25,8 @@ headingDivider: 3
 
 # Towards metacognitive agents: integrating confidence in sequential decision-making
 
-Show pagination, starting with second slide 
-paginate: true  -->
+<!-- Show pagination, starting with second slide  -->
+<!-- paginate: true  -->
 
 ## Confidence in natural cognition
 

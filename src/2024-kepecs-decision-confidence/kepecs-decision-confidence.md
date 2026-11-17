@@ -1,20 +1,15 @@
 ---
 marp: true
 math: true  # Use default Marp engin for math rendering
-headingDivider: 3
+headingDivider: 5
 paginate: true
 title: "Papers review: Kepecs' framework for decision confidence"
 date: 2024-12-02T13:40:27+01:00
-draft: false
-showToc: true
 ---
 
-<!-- Put each of the following lines into an HTML comment to display the title slide -->
-
-<!-- Apply header and footer to first slide only 
-_header: "[![IMN logo](../../../static/images/imn_logo.png)](https://ensc.bordeaux-inp.fr) [![INRIA logo](../../../static/images/inria_logo.jpg)](https://www.inria.fr) [![ENSC logo](../../../static/images/ENSC_2022.jpg)](https://ensc.bordeaux-inp.fr)" 
-_footer: "[Baptiste Pesquet](https://www.bpesquet.fr)" 
-headingDivider: 3 
+<!-- Apply header and footer to first slide only -->
+<!-- _header: "[![INRIA logo](../../logos/inria_logo.jpg)](https://www.inria.fr) [![ENSC logo](../../logos/ensc_logo.jpg)](https://ensc.bordeaux-inp.fr)"  -->
+<!-- _footer: "[Baptiste Pesquet](https://www.bpesquet.fr)"  -->
 
 <style scoped>
   img {
@@ -24,8 +19,8 @@ headingDivider: 3
 
 # Papers review: Kepecs' framework for decision confidence
 
-Show pagination, starting with second slide 
-paginate: true  -->
+<!-- Show pagination, starting with second slide  -->
+<!-- paginate: true  -->
 
 ## Papers
 
@@ -57,8 +52,6 @@ Adam Kepecs and Zachary F. Mainen, “A Computational Framework for the Study of
 
 ![Uncertain option](images/kepecs_confidence_4.png)
 
----
-
 #### Decline (opt-out) option
 
 - Add option of accepting or declining the test.
@@ -67,16 +60,12 @@ Adam Kepecs and Zachary F. Mainen, “A Computational Framework for the Study of
 
 ![Decline option](images/kepecs_confidence_5.png)
 
----
-
 #### Post-decision wagering
 
 - The binary choice is followed by a bet on the reward. If the decision is correct, the wager amount is kept.
 - Contrary to previous protocols, both choice and confidence are obtained on each trial.
 
 ![Post-decision wagering](images/kepecs_confidence_6.png)
-
----
 
 #### Decision restart
 
@@ -126,8 +115,6 @@ $$c_i = \{ \text{left}|s_i< b_i; \text{right}|s_i \geq b_i\ \}$$
 
 $$d_i = |s_i-b_i|$$
 
----
-
 #### Confidence calibration
 
 - The distance $d_i$ must be calibrated and normalized to become a veridical estimator of decision outcome (linear relationship with accuracy).
@@ -138,8 +125,6 @@ $$d_i = |s_i-b_i|$$
 $$\delta_i = f(d_i) = \text{tan}(|s_i-b_i|)$$
 
 $$\sigma_i = 1 - \delta_i$$
-
----
 
 #### Results
 
@@ -157,8 +142,6 @@ $$\sigma_i = 1 - \delta_i$$
 $${BoE}_i = {\Delta e}_i/\theta_i$$
 
 $$\delta_i = f({BoE}_i) = \frac{2}{1+ e^{\frac{1}{3}{\Delta e}_i / \theta_i}}$$
-
----
 
 #### Results
 

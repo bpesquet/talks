@@ -1,13 +1,9 @@
 ---
 marp: true
 math: true  # Use default Marp engin for math rendering
-paginate: true
+headingDivider: 4
 title: "Artificial Intelligence: past, present, future(s)"
 date: 2025-03-20T11:09:44+01:00
-draft: false
-showToc: true
-aliases:
-- /materials/chembiona-2925/
 style: |
   .columns {
     display: grid;
@@ -19,9 +15,8 @@ style: |
 <!-- Put each of the following lines into an HTML comment to display the title slide -->
 
 <!-- Apply header and footer to first slide only -->
-<!-- _header: "[![INRIA logo](../../logos/inria_logo.jpg)](https://www.inria.fr) [![ENSC logo](../../logos/ensc_logo.jpg)](https://ensc.bordeaux-inp.fr) [![Mnemosyne logo](../../logos/mnemosyne_logo.png)](https://team.inria.fr/mnemosyne/fr/)"  -->
+<!-- _header: "[![INRIA logo](../../logos/inria_logo.jpg)](https://www.inria.fr) [![ENSC logo](../../logos/ensc_logo.jpg)](https://ensc.bordeaux-inp.fr)"  -->
 <!-- _footer: "[Baptiste Pesquet](https://www.bpesquet.fr)"  -->
-<!-- headingDivider: 4 -->
 
 <style scoped>
   img {

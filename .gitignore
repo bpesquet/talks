@@ -3,4 +3,4 @@
 
 # PDF output, except for Typst demos
 *.pdf
-!2026-typst-intro/demos/*.pdf
+!src/2026-typst-intro/demos/*.pdf

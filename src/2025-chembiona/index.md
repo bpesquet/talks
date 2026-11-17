@@ -19,7 +19,7 @@ style: |
 <!-- Put each of the following lines into an HTML comment to display the title slide -->
 
 <!-- Apply header and footer to first slide only -->
-<!-- _header: "[![INRIA logo](../images/inria_logo.jpg)](https://www.inria.fr) [![ENSC logo](../images/ensc_logo.jpg)](https://ensc.bordeaux-inp.fr) [![Mnemosyne logo](../images/mnemosyne_logo.png)](https://team.inria.fr/mnemosyne/fr/)"  -->
+<!-- _header: "[![INRIA logo](../../logos/inria_logo.jpg)](https://www.inria.fr) [![ENSC logo](../../logos/ensc_logo.jpg)](https://ensc.bordeaux-inp.fr) [![Mnemosyne logo](../../logos/mnemosyne_logo.png)](https://team.inria.fr/mnemosyne/fr/)"  -->
 <!-- _footer: "[Baptiste Pesquet](https://www.bpesquet.fr)"  -->
 <!-- headingDivider: 4 -->
 

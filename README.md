@@ -4,7 +4,7 @@ This repository contains the source code for most of my public talks.
 
 Slideshows are written either in [Markdown](https://en.wikipedia.org/wiki/Markdown) (rendered with [Marp](https://github.com/marp-team/marp)) or [Typst](https://github.com/typst/typst) (rendered with [Touying](https://github.com/touying-typ/touying)).
 
-Generated files are available on my [website](https://www.bpesquet.fr/talks/).
+Generated files are available on my [homepage](https://www.bpesquet.fr/talks/).
 
 ## Slideshows
 
